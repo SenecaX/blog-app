@@ -7,7 +7,7 @@ const routes = require("./routes/index");
 
 
 app.get('/', function (req: any, res: any) {
-  res.send('welcome');
+  res.send('welcome!');
 });
 
 app.listen(3000, function() {
